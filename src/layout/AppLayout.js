@@ -19,7 +19,7 @@ const AppLayout = () => {
               </Col>
               <Col>
                 <h1>
-                  <font color="white">Zoo Swap</font>
+                  <font color="blue">hpos10i swap</font>
                 </h1>
               </Col>
             </Row>
@@ -49,10 +49,12 @@ const AppLayout = () => {
         </Routes>
       </Content>
       <Footer style={{ position: "sticky", bottom: 0 }}>
-        © 2022 All rights reserved by Daniel Armstrong.
+       HPOS10i SWAP Forked from Zoo Swap 2022
       </Footer>
     </Layout>
   );
 };
 
 export default AppLayout;
+
+// © 2022 All rights reserved by Daniel Armstrong.
