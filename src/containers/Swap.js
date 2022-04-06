@@ -41,7 +41,7 @@ const Swap = () => {
 
   useEffect(() => {
     if (fromToken != undefined && toToken != undefined) {
-      if (toToken == "zoo") {
+      if (toToken == "R1NGZ") {
         setRate(0.5);
       } else {
         setRate(2);
@@ -81,10 +81,10 @@ const Swap = () => {
 
   const onFromTokenChanged = (token) => {
     if (token == "eth") {
-      form.setFieldsValue({ toToken: "zoo" });
+      form.setFieldsValue({ toToken: "R1NGZ" });
       setToToken("zoo");
     } else {
-      form.setFieldsValue({ toToken: "eth" });
+      form.setFieldsValue({ toToken: "BSC" });
       setToToken("eth");
     }
     resetFromToValues();
@@ -93,10 +93,10 @@ const Swap = () => {
 
   const onToTokenChanged = (token) => {
     if (token == "eth") {
-      form.setFieldsValue({ fromToken: "zoo" });
+      form.setFieldsValue({ fromToken: "R1NGZ" });
       setFromToken("zoo");
     } else {
-      form.setFieldsValue({ fromToken: "eth" });
+      form.setFieldsValue({ fromToken: "BSC" });
       setFromToken("eth");
     }
     resetFromToValues();
@@ -111,8 +111,8 @@ const Swap = () => {
         rules={[{ required: true, message: "Please select from token!" }]}
       >
         <Select onChange={onFromTokenChanged} style={{ width: 100 }}>
-          <Option value="eth">eth</Option>
-          <Option value="zoo">zoo</Option>
+          <Option value="BSC">BSC</Option>
+          <Option value="R1NGZ">R1NGZ</Option>
         </Select>
       </Form.Item>
     );
@@ -126,8 +126,8 @@ const Swap = () => {
         rules={[{ required: true, message: "Please select to token!" }]}
       >
         <Select onChange={onToTokenChanged} style={{ width: 100 }}>
-          <Option value="eth">eth</Option>
-          <Option value="zoo">zoo</Option>
+          <Option value="BSC">BSC</Option>
+          <Option value="R1NGZ">R1NGZ</Option>
         </Select>
       </Form.Item>
     );
