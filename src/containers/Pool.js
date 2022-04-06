@@ -37,10 +37,10 @@ const Pool = () => {
             >
               <Row>
                 <Col flex={1}>
-                  <Statistic title="Total eth" value={100} />
+                  <Statistic title="Total BSC" value={100} />
                 </Col>
                 <Col flex={1}>
-                  <Statistic title="Total zoo" value={200} />
+                  <Statistic title="Total R1NGZ" value={200} />
                 </Col>
               </Row>
             </CollapsePanel>
@@ -55,10 +55,10 @@ const Pool = () => {
             >
               <Row>
                 <Col flex={1}>
-                  <Statistic title="My eth" value={10} />
+                  <Statistic title="My BSC" value={10} />
                 </Col>
                 <Col flex={1}>
-                  <Statistic title="My zoo" value={20} />
+                  <Statistic title="My R1NGZ" value={20} />
                 </Col>
               </Row>
             </CollapsePanel>
@@ -70,8 +70,8 @@ const Pool = () => {
                 style={{
                   width: "100%",
                   marginTop: 20,
-                  backgroundColor: "green",
-                  borderColor: "green",
+                  backgroundColor: "blue",
+                  borderColor: "blue",
                 }}
                 type="primary"
                 htmlType="submit"
