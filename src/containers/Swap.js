@@ -80,7 +80,7 @@ const Swap = () => {
   };
 
   const onFromTokenChanged = (token) => {
-    if (token == "eth") {
+    if (token == "BSC") {
       form.setFieldsValue({ toToken: "R1NGZ" });
       setToToken("zoo");
     } else {
