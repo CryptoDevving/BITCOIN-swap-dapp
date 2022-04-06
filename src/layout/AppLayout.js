@@ -19,7 +19,7 @@ const AppLayout = () => {
               </Col>
               <Col>
                 <h1>
-                  <font color="blue">hpos10i swap</font>
+                  <font color="blue">R1NGZ Swap</font>
                 </h1>
               </Col>
             </Row>
@@ -49,7 +49,7 @@ const AppLayout = () => {
         </Routes>
       </Content>
       <Footer style={{ position: "sticky", bottom: 0 }}>
-       HPOS10i SWAP Forked from Zoo Swap 2022
+       R1NGZ Swap Forked from Zoo Swap 2022
       </Footer>
     </Layout>
   );
