@@ -1,4 +1,4 @@
-![🏆](https://github.com/dany-armstrong/zoo-swap-dapp/blob/main/screencapture.png?raw=true)
+![🏆](https://github.com/?raw=true)
 
 # 🏆🏆🏆 Zoo Swap DApp 🏆🏆🏆
 UI of the decentralized exchange service between ethereum and zoo tokens.
