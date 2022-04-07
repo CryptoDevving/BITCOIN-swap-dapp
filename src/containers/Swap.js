@@ -82,22 +82,22 @@ const Swap = () => {
   const onFromTokenChanged = (token) => {
     if (token == "BSC") {
       form.setFieldsValue({ toToken: "R1NGZ" });
-      setToToken("zoo");
+      setToToken("R1NGZ");
     } else {
       form.setFieldsValue({ toToken: "BSC" });
-      setToToken("eth");
+      setToToken("BSC");
     }
     resetFromToValues();
     setFromToken(token);
   };
 
   const onToTokenChanged = (token) => {
-    if (token == "eth") {
+    if (token == "BSC") {
       form.setFieldsValue({ fromToken: "R1NGZ" });
-      setFromToken("zoo");
+      setFromToken("RINGZ");
     } else {
       form.setFieldsValue({ fromToken: "BSC" });
-      setFromToken("eth");
+      setFromToken("BSC");
     }
     resetFromToValues();
     setToToken(token);
