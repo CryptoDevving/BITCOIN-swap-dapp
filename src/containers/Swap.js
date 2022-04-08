@@ -134,7 +134,7 @@ const Swap = () => {
   };
 
   return (
-    <Row justify="center" style={{ margin: 80 }}>
+    <Row justify="center" style={{ margin: 16 }}>
       <Col lg={8} md={12} sm={16}>
         <Card title="Swap" style={{ borderRadius: 16 }}>
           <Form
